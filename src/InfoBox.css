@@ -6,3 +6,47 @@
     display: flex;
     justify-content: center;
 }
+
+.InfoBox {
+  display: flex;
+  justify-content: center;
+}
+
+.cardContainer .MuiCard-root {
+  max-width: 340px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 35px rgba(30, 58, 95, 0.25);
+  background: rgba(255, 255, 255, 0.9);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardContainer .MuiCard-root:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(30, 58, 95, 0.3);
+}
+
+.cardContainer .MuiCardMedia-root {
+  filter: saturate(1.1) brightness(0.95);
+}
+
+.cardContainer h5 {
+  font-weight: 700;
+  color: #1e3a5f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.cardContainer p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #4a5b6e;
+}
+
+.cardContainer i {
+  color: #1e3a5f;
+}
