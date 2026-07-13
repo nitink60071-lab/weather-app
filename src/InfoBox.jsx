@@ -3,7 +3,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import "./InfoBox.css";
-import WbSunnyIcon from "@mui/icons-material/Wbsunny";
+import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
 
